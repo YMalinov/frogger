@@ -8,7 +8,7 @@ namespace Frogger.Init
         {
             while (true)
             {
-                Menu.WriteMenu();
+               Menu.WriteMenu();
             }
         }
     }

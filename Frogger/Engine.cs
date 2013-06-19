@@ -260,5 +260,10 @@ namespace Frogger
                 }
             }
         }
+
+		static void Main()
+		{
+			//or else it won't compile
+		}
     }
 }

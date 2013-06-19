@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frogger", "Frogger\Frogger.csproj", "{AD99871A-EC47-4091-8C83-3972A12C1B2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D350F54E-A891-4480-A2D8-124E2900243E}"
@@ -18,14 +18,63 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8FC70059-642B-4D83-A987-3F14823B801B}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC70059-642B-4D83-A987-3F14823B801B}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{8FC70059-642B-4D83-A987-3F14823B801B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC70059-642B-4D83-A987-3F14823B801B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD99871A-EC47-4091-8C83-3972A12C1B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Frogger.Init\Frogger.Init.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.IndentSwitchBody = True
+		$3.AnonymousMethodBraceStyle = NextLine
+		$3.PropertyBraceStyle = NextLine
+		$3.PropertyGetBraceStyle = NextLine
+		$3.PropertySetBraceStyle = NextLine
+		$3.EventBraceStyle = NextLine
+		$3.EventAddBraceStyle = NextLine
+		$3.EventRemoveBraceStyle = NextLine
+		$3.StatementBraceStyle = NextLine
+		$3.ArrayInitializerBraceStyle = NextLine
+		$3.BeforeMethodDeclarationParentheses = False
+		$3.BeforeMethodCallParentheses = False
+		$3.BeforeConstructorDeclarationParentheses = False
+		$3.BeforeDelegateDeclarationParentheses = False
+		$3.NewParentheses = False
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = VisualStudio
+		$4.inheritsScope = text/plain
+		$4.scope = text/plain
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = application/config+xml
+		$0.XmlFormattingPolicy = $6
+		$6.inheritsSet = null
+		$6.scope = application/config+xml
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = application/xml
+		$0.XmlFormattingPolicy = $8
+		$8.inheritsSet = Mono
+		$8.inheritsScope = application/xml
+		$8.scope = application/xml
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
